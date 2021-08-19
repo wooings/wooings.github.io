@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -19,8 +19,8 @@ locale                   : "ko"
 title                    : "Woo_ing's tory"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Wooseoop Lee"
-description              : "An amazing website."
+name                     : "Wooseop Lee"
+description              : "Amazing story"
 url                      : "https://wooings.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "wooings/wooings.github.io"
@@ -30,7 +30,7 @@ masthead_title           : "Woo_ing's tory" # overrides the website title displa
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Wooseop Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  location         : "Seoul, Korea"
+  email            : "wooseabi@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
