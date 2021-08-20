@@ -11,15 +11,15 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "ko"
+title                    : "ws's story"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Wooseop Lee"
 description              : "An amazing website."
 url                      : "https://wooings.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Interest : Automated Vehicles; Traffic safety;Computer Vision; Artificial Intelligence"
   location         : "Somewhere"
   email            :
   links:
