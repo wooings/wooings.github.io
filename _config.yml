@@ -93,16 +93,16 @@ social:
 
 # Analytics
 analytics:
-  provider               : google-universal # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : UA-2011187-3
+    tracking_id          : 
     anonymize_ip         : true # true, false (default)
 
 
 # Site Author
 author:
   name             : "Wooseop Lee"
-  avatar           : "/assets/images/profile.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Interest : Automated Vehicles; Traffic safety; Computer Vision; Artificial Intelligence"
   location         : "Seoul, Korea"
   email            : 
@@ -138,12 +138,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wooings"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/woo_ings"
@@ -217,7 +211,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -289,3 +283,20 @@ defaults:
       comments: # true
       share: true
       related: true
+          toc_ads: true
+      toc_sticky: true
+      sidebar:
+        title: 카테고리
+        nav: "sidebar-contents"
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      sidebar:
+        title: 카테고리
+        nav: "sidebar-contents"
+sidebar:
+  - title: "Title"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
