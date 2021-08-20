@@ -105,14 +105,14 @@ author:
   avatar           : "/assets/images/profile.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Interest : Automated Vehicles; Traffic safety; Computer Vision; Artificial Intelligence"
   location         : "Seoul, Korea"
-  email            : "wooseabi@naver.com"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "wooseabi@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://sites.google.com/view/automatedvehicle"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
