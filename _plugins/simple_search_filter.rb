@@ -16,4 +16,4 @@ class String
       str << char if char.ascii_only? and char.ord.between?(32,126)
     end
   end
-end
+end  
